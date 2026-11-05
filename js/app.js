@@ -1,7 +1,7 @@
 /**
  * WasteWise - Core Application Engine
  * Pure Vanilla JavaScript implementation
- * Skill Lab Project - Team 27 (Nidhi Shedole & B. Sreehitha)
+ * Intelligent Waste Sorting & Route Optimization Platform
  */
 
 document.addEventListener('DOMContentLoaded', () => {

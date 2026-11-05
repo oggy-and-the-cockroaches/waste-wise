@@ -1,0 +1,8 @@
+# Local SSL certificates
+cert.pem
+key.pem
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class

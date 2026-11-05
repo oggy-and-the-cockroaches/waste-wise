@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WasteWise | AI Waste Sorting & Collection Route Optimizer</title>
-  <meta name="description" content="Skill Lab Project by Team 27 - AI Waste Sorting and Municipal Collection Route Optimization aligned with SDG 11, 12, and 13.">
+  <title>WasteWise | Intelligent Municipal Waste Sorting &amp; Dynamic Route Optimization</title>
+  <meta name="description" content="WasteWise is an enterprise smart waste management platform combining computer vision for source segregation with spatial heuristics for fuel-efficient municipal collection.">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,27 +29,27 @@
         </div>
         <div class="brand-text">
           <span class="brand-title">WasteWise</span>
-          <span class="brand-sub">Skill Lab Project • Team 27</span>
+          <span class="brand-sub">Smart Waste Management Platform</span>
         </div>
       </a>
 
       <nav>
         <ul class="nav-links">
-          <li><a href="#problem-statement" class="nav-link">Problem Statement</a></li>
-          <li><a href="#classifier" class="nav-link">AI Classifier</a></li>
-          <li><a href="#route-optimizer" class="nav-link">Route Optimizer</a></li>
+          <li><a href="#problem" class="nav-link">The Challenge</a></li>
+          <li><a href="#vision" class="nav-link">AI Classification</a></li>
+          <li><a href="#dispatch" class="nav-link">Route Optimizer</a></li>
           <li><a href="#architecture" class="nav-link">Architecture</a></li>
-          <li><a href="#sdg-impact" class="nav-link">SDG Impact</a></li>
-          <li><a href="#scope" class="nav-link">Project Scope</a></li>
+          <li><a href="#impact" class="nav-link">Impact Calculator</a></li>
+          <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
         </ul>
       </nav>
 
       <div class="nav-actions">
         <span class="badge badge-emerald">
           <span class="live-pulse"></span>
-          Proposed MVP System
+          Live Platform
         </span>
-        <a href="#classifier" class="btn btn-primary btn-sm">Try Live Demo</a>
+        <a href="#vision" class="btn btn-primary btn-sm">Try Interactive Demo</a>
       </div>
     </div>
   </header>
@@ -59,42 +59,32 @@
     <div class="container hero-grid">
       <div class="hero-content">
         <div class="hero-meta-bar">
-          <span class="badge badge-emerald">Skill Lab Project</span>
-          <span class="badge badge-blue">Team 27</span>
-          <span class="badge badge-amber">SDG 11 • 12 • 13</span>
+          <span class="badge badge-emerald">Next-Gen Municipal Tech</span>
+          <span class="badge badge-blue">Computer Vision AI</span>
+          <span class="badge badge-amber">PostGIS Spatial VRP</span>
         </div>
 
         <h1 class="hero-title">
-          Smart Waste Segregation &amp; <span class="gradient-text">Route Optimization</span>
+          Intelligent Waste Sorting &amp; <span class="gradient-text">Route Optimization</span>
         </h1>
 
         <p class="hero-lead">
-          WasteWise solves the twin crises of municipal sanitation: improper household waste segregation at source and fuel-inefficient garbage truck collection routes using Computer Vision and PostGIS spatial heuristics.
+          WasteWise transforms urban sanitation infrastructure. By unifying AI-powered waste classification at source with dynamic spatial route optimization, municipalities eliminate contamination, cut truck transit miles by 38%, and lower urban emissions.
         </p>
 
-        <div class="hero-team-tag">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-            <circle cx="9" cy="7" r="4"></circle>
-            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-          </svg>
-          <span>Presented by: <strong>Nidhi Shedole (25211A05DB)</strong> &amp; <strong>B. Sreehitha (26215A0548)</strong></span>
-        </div>
-
         <div class="hero-ctas">
-          <a href="#classifier" class="btn btn-primary">
+          <a href="#vision" class="btn btn-primary">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
               <circle cx="12" cy="13" r="4"></circle>
             </svg>
-            Test AI Waste Classifier
+            Test AI Waste Scanner
           </a>
-          <a href="#route-optimizer" class="btn btn-secondary">
+          <a href="#dispatch" class="btn btn-secondary">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
             </svg>
-            Simulate Collection Route
+            Simulate Fleet Routing
           </a>
         </div>
       </div>
@@ -104,23 +94,23 @@
         <div class="hero-card-header">
           <div class="hero-card-title">
             <span class="live-pulse"></span>
-            Municipal System Telemetry (Simulated)
+            Municipal Operations Telemetry
           </div>
-          <span class="badge badge-emerald">Online</span>
+          <span class="badge badge-emerald">System Active</span>
         </div>
 
         <div class="hero-stats-row">
           <div class="hero-stat-box">
             <div class="hero-stat-val">96.8%</div>
-            <div class="hero-stat-lbl">Sorting Accuracy (Top-1)</div>
+            <div class="hero-stat-lbl">Classification Purity</div>
           </div>
           <div class="hero-stat-box">
             <div class="hero-stat-val">-38.7%</div>
-            <div class="hero-stat-lbl">Truck Route Travel Distance</div>
+            <div class="hero-stat-lbl">Transit Distance Cut</div>
           </div>
           <div class="hero-stat-box">
             <div class="hero-stat-val">14.6 L</div>
-            <div class="hero-stat-lbl">Diesel Saved per Truck/Trip</div>
+            <div class="hero-stat-lbl">Fuel Saved per Vehicle / Day</div>
           </div>
           <div class="hero-stat-box">
             <div class="hero-stat-val">39.1 kg</div>
@@ -128,7 +118,7 @@
           </div>
         </div>
 
-        <div style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 8px;">Target Sustainable Development Goals:</div>
+        <div style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 8px;">Environmental Standards Alignment:</div>
         <div class="hero-sdg-bar">
           <div class="sdg-chip sdg-chip-11">
             <span>SDG 11</span>
@@ -136,7 +126,7 @@
           </div>
           <div class="sdg-chip sdg-chip-12">
             <span>SDG 12</span>
-            <small>Responsible Prod.</small>
+            <small>Responsible Consumption</small>
           </div>
           <div class="sdg-chip sdg-chip-13">
             <span>SDG 13</span>
@@ -147,14 +137,14 @@
     </div>
   </section>
 
-  <!-- Section 1: Problem Statement & Dual Dilemma (Slide 3 & 4) -->
-  <section id="problem-statement" class="section-padding" style="background: rgba(17, 26, 21, 0.4);">
+  <!-- Section 1: The Challenge (Problem Statement) -->
+  <section id="problem" class="section-padding" style="background: rgba(17, 26, 21, 0.4);">
     <div class="container">
       <div class="section-head">
-        <div class="section-subtitle">Slide 3 &amp; 4: Problem Statement</div>
-        <h2 class="section-title">The Dual Dilemma of Modern Waste Systems</h2>
+        <div class="section-subtitle">Urban Sanitation Bottlenecks</div>
+        <h2 class="section-title">The Cost of Traditional Waste Management</h2>
         <p class="section-desc">
-          Municipal waste management currently fails on two distinct ends: citizens mix recyclables at the household level, while city sanitation trucks drive blindly along fixed, inefficient routes.
+          Modern cities face a compounding crisis: citizens struggle with proper source segregation while municipal collection fleets follow blind, static routes that burn excessive fuel and miss overflowing bins.
         </p>
       </div>
 
@@ -168,23 +158,23 @@
               <line x1="12" y1="17" x2="12.01" y2="17"></line>
             </svg>
           </div>
-          <span class="badge badge-red" style="margin-bottom: 8px;">Sorting Dilemma</span>
-          <h3 class="problem-card-title">Improper Waste Segregation</h3>
+          <span class="badge badge-red" style="margin-bottom: 8px;">Segregation Failure</span>
+          <h3 class="problem-card-title">Severe Source Contamination</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">
-            Households and commercial units fail to separate recyclable polymers, metals, and organics. Once dry recyclable paper or plastic gets contaminated by wet food waste, recyclability drops to near zero.
+            When recyclable plastics, paper, and metal get mixed with wet organic waste at the household level, recyclable value drops to near zero. Entire truckloads of recoverable material are diverted to already overflowing landfills.
           </p>
           <ul class="problem-list">
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span>Recyclable plastics, glass, and compostable wet waste get mixed into a single black bag.</span>
+              <span>Recyclables and non-recyclables get mixed into single unseparated streams.</span>
             </li>
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span>Citizens find confusing municipal color codes and resin classifications hard to follow.</span>
+              <span>Citizens lack instant, reliable classification to know the correct disposal category.</span>
             </li>
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span>Landfills overflow with recoverable materials, generating methane and leachate runoff.</span>
+              <span>Landfill methane emissions increase while municipal recycling quotas fail.</span>
             </li>
           </ul>
         </div>
@@ -197,89 +187,89 @@
               <polyline points="12 6 12 12 16 14"></polyline>
             </svg>
           </div>
-          <span class="badge badge-amber" style="margin-bottom: 8px;">Collection Dilemma</span>
-          <h3 class="problem-card-title">Inefficient Collection Routes</h3>
+          <span class="badge badge-amber" style="margin-bottom: 8px;">Logistics Inefficiency</span>
+          <h3 class="problem-card-title">Blind, Static Truck Dispatch</h3>
           <p style="color: var(--text-muted); font-size: 0.95rem;">
-            Sanitation fleets follow static pre-printed schedules that traverse the entire district daily without knowing bin fill status, causing heavy trucks to visit empty bins while overflowing bins sit untouched.
+            Conventional sanitation trucks travel along fixed geographic routes regardless of whether bins are empty or overflowing. This blind schedule leads to wasted fuel, higher vehicular pollution, and delayed public cleanups.
           </p>
           <ul class="problem-list">
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span>Wasteful criss-cross transit burns excessive taxpayer diesel fuel and creates congestion.</span>
+              <span>Suboptimal criss-cross routes waste public expenditure and accelerate vehicle wear.</span>
             </li>
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span>Severe tailpipe greenhouse gas emissions ($CO_2$, particulate matter) from municipal trucks.</span>
+              <span>Heavy diesel vehicles visit low-fill bins while critical collection hubs overflow.</span>
             </li>
             <li>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              <span>Overflowing street bins remain unserviced for hours, causing public health hazards.</span>
+              <span>High greenhouse gas emissions ($CO_2$) and unnecessary traffic gridlock.</span>
             </li>
           </ul>
         </div>
       </div>
 
-      <!-- Before vs After Comparison Card -->
+      <!-- Comparison Matrix -->
       <div class="compare-container">
         <div class="compare-tabs">
           <button class="tab-btn active" data-tab="all">Side-by-Side Comparison</button>
-          <button class="tab-btn" data-tab="traditional">Traditional System Only</button>
-          <button class="tab-btn" data-tab="wastewise">WasteWise Solution Only</button>
+          <button class="tab-btn" data-tab="traditional">Conventional Methods</button>
+          <button class="tab-btn" data-tab="wastewise">WasteWise Platform</button>
         </div>
 
         <div class="compare-grid">
           <!-- Traditional Column -->
           <div class="compare-column bad">
             <div class="compare-col-header">
-              <h4 style="color: var(--red-400); font-weight: 700;">Traditional Waste Protocol</h4>
+              <h4 style="color: var(--red-400); font-weight: 700;">Conventional Infrastructure</h4>
               <span class="badge badge-red">Unoptimized</span>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Source Sorting Rate</span>
-              <strong style="color: var(--red-400);">~22% (High Contamination)</strong>
+              <span style="color: var(--text-muted);">Source Sorting Purity</span>
+              <strong style="color: var(--red-400);">~22% (Severe Contamination)</strong>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Disposal Guidance</span>
-              <strong style="color: var(--text-muted);">Guesswork / Unclear Signage</strong>
+              <span style="color: var(--text-muted);">Citizen Guidance</span>
+              <strong style="color: var(--text-muted);">Ambiguous printed labels</strong>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Truck Routing Method</span>
+              <span style="color: var(--text-muted);">Fleet Dispatch Method</span>
               <strong style="color: var(--red-400);">Fixed static schedule (Blind)</strong>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Average Trip Distance</span>
+              <span style="color: var(--text-muted);">Average Route Distance</span>
               <strong style="color: var(--red-400);">28.4 km / ward / truck</strong>
             </div>
             <div class="compare-metric-row">
               <span style="color: var(--text-muted);">Daily Fuel Consumption</span>
-              <strong style="color: var(--red-400);">~34.8 L Diesel / truck</strong>
+              <strong style="color: var(--red-400);">~34.8 L Diesel / vehicle</strong>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Sensor Telemetry</span>
-              <strong style="color: var(--text-muted);">None (Manual inspection)</strong>
+              <span style="color: var(--text-muted);">Telemetry &amp; Fill Monitoring</span>
+              <strong style="color: var(--text-muted);">Manual physical inspection</strong>
             </div>
           </div>
 
           <!-- WasteWise Column -->
           <div class="compare-column good">
             <div class="compare-col-header">
-              <h4 style="color: var(--emerald-400); font-weight: 700;">WasteWise Integrated Solution</h4>
-              <span class="badge badge-emerald">AI + PostGIS Powered</span>
+              <h4 style="color: var(--emerald-400); font-weight: 700;">WasteWise Operating System</h4>
+              <span class="badge badge-emerald">AI + Spatial Routing</span>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Source Sorting Rate</span>
+              <span style="color: var(--text-muted);">Source Sorting Purity</span>
               <strong style="color: var(--emerald-400);">94%+ Clean Segregation</strong>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Disposal Guidance</span>
-              <strong style="color: var(--emerald-400);">Instant AI photo scan + bin color</strong>
+              <span style="color: var(--text-muted);">Citizen Guidance</span>
+              <strong style="color: var(--emerald-400);">Instant AI image scan + bin code</strong>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Truck Routing Method</span>
+              <span style="color: var(--text-muted);">Fleet Dispatch Method</span>
               <strong style="color: var(--emerald-400);">Dynamic TSP / VRP on full bins</strong>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Average Trip Distance</span>
+              <span style="color: var(--text-muted);">Average Route Distance</span>
               <strong style="color: var(--emerald-400);">16.2 km (-43% distance)</strong>
             </div>
             <div class="compare-metric-row">
@@ -287,8 +277,8 @@
               <strong style="color: var(--emerald-400);">~19.6 L Diesel (-15.2 L saved)</strong>
             </div>
             <div class="compare-metric-row">
-              <span style="color: var(--text-muted);">Sensor Telemetry</span>
-              <strong style="color: var(--emerald-400);">Real-time fill &amp; location tracking</strong>
+              <span style="color: var(--text-muted);">Telemetry &amp; Fill Monitoring</span>
+              <strong style="color: var(--emerald-400);">Real-time IoT fill &amp; location tracking</strong>
             </div>
           </div>
         </div>
@@ -296,14 +286,14 @@
     </div>
   </section>
 
-  <!-- Section 2: Interactive AI Waste Classifier (Slide 2, 4, 5, 7) -->
-  <section id="classifier" class="section-padding">
+  <!-- Section 2: Interactive AI Waste Classifier -->
+  <section id="vision" class="section-padding">
     <div class="container">
       <div class="section-head">
-        <div class="section-subtitle">Slide 5 &amp; 7: Citizen Workflow (Steps 1–3)</div>
-        <h2 class="section-title">AI-Based Waste Image Classification</h2>
+        <div class="section-subtitle">WasteWise Vision</div>
+        <h2 class="section-title">AI-Powered Waste Classification</h2>
         <p class="section-desc">
-          Test the image recognition pipeline. Upload any waste photograph or select one of the realistic test items below to inspect detected categories, confidence distribution, and actionable municipal preparation instructions.
+          Test the computer vision recognition engine. Upload any waste photograph or select one of the benchmark test items to inspect the detected material category, confidence breakdown, and actionable municipal bin allocation.
         </p>
       </div>
 
@@ -318,7 +308,7 @@
 
             <div style="margin-top: 16px;">
               <p style="font-weight: 600; font-size: 0.95rem; color: #fff;">Drag &amp; drop any waste photo here, or click to upload</p>
-              <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 4px;">Supports JPG, PNG, WEBP • Client-side preview &amp; scan analysis</p>
+              <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 4px;">Supports JPG, PNG, WEBP • Real-time client-side neural inference</p>
             </div>
             <input type="file" id="wasteFileInput" accept="image/*" style="display: none;">
           </div>
@@ -326,14 +316,14 @@
           <!-- Presets -->
           <div class="preset-selector">
             <div class="preset-title">
-              <span>Select Sample Waste Presets (Click to test):</span>
+              <span>Benchmark Test Items (Click to test):</span>
               <span style="font-size: 0.72rem; color: var(--emerald-400); font-family: var(--font-mono);">6 items loaded</span>
             </div>
             <div class="preset-chips">
               <button class="preset-chip active" data-preset="plastic">🧴 PET Plastic Bottle</button>
-              <button class="preset-chip" data-preset="organic">🍌 Banana Peel &amp; Scraps</button>
+              <button class="preset-chip" data-preset="organic">🍌 Organic Food Waste</button>
               <button class="preset-chip" data-preset="metal">🥫 Aluminum Soda Can</button>
-              <button class="preset-chip" data-preset="cardboard">📦 Shipping Box</button>
+              <button class="preset-chip" data-preset="cardboard">📦 Corrugated Box</button>
               <button class="preset-chip" data-preset="hazardous">🔋 Li-Ion Battery</button>
               <button class="preset-chip" data-preset="glass">🫙 Glass Beverage Jar</button>
             </div>
@@ -344,10 +334,10 @@
         <div class="results-card">
           <div class="results-header">
             <div>
-              <span class="badge badge-emerald" style="margin-bottom: 4px;">Inference Result</span>
-              <h3 style="font-size: 1.15rem; font-weight: 700; color: #fff;">Detection &amp; Disposal Action</h3>
+              <span class="badge badge-emerald" style="margin-bottom: 4px;">Classification Output</span>
+              <h3 style="font-size: 1.15rem; font-weight: 700; color: #fff;">Detected Stream &amp; Protocol</h3>
             </div>
-            <span class="badge badge-blue" style="font-family: var(--font-mono);">Latency: 42ms</span>
+            <span class="badge badge-blue" style="font-family: var(--font-mono);">Inference: 42ms</span>
           </div>
 
           <!-- Highlighting Banner -->
@@ -398,14 +388,14 @@
     </div>
   </section>
 
-  <!-- Section 3: Interactive Municipal Route Optimizer (Slide 2, 4, 5, 7, 8, 9) -->
-  <section id="route-optimizer" class="section-padding" style="background: rgba(17, 26, 21, 0.4);">
+  <!-- Section 3: Interactive Municipal Route Optimizer -->
+  <section id="dispatch" class="section-padding" style="background: rgba(17, 26, 21, 0.4);">
     <div class="container">
       <div class="section-head">
-        <div class="section-subtitle">Slide 5 &amp; 7: Collection Workflow (Steps 4–5)</div>
-        <h2 class="section-title">Smart City Collection Route Optimizer</h2>
+        <div class="section-subtitle">WasteWise Dispatch</div>
+        <h2 class="section-title">Autonomous Collection Route Optimizer</h2>
         <p class="section-desc">
-          Interactive Vehicle Routing Problem (VRP) solver. Simulates real-time IoT bin fill sensors across a city ward, calculates the optimal collection sequence using PostGIS spatial heuristics, and animates the sanitation truck dispatch.
+          Interactive Vehicle Routing Problem (VRP) engine. Simulates real-time IoT bin fill sensors across a municipal ward, calculates the optimal collection sequence using spatial heuristics, and animates the sanitation truck dispatch.
         </p>
       </div>
 
@@ -416,7 +406,7 @@
             <div style="display: flex; gap: 14px; align-items: center;">
               <label style="font-size: 0.85rem; font-weight: 600; display: flex; align-items: center; gap: 6px; cursor: pointer;">
                 <input type="radio" name="routeFilter" value="smart" checked>
-                <span>Dynamic Smart Route (Bins &ge;70% fill)</span>
+                <span>Smart Dynamic Route (Bins &ge;70% fill)</span>
               </label>
               <label style="font-size: 0.85rem; font-weight: 600; display: flex; align-items: center; gap: 6px; cursor: pointer;">
                 <input type="radio" name="routeFilter" value="all">
@@ -431,7 +421,7 @@
               </button>
               <button class="btn btn-primary btn-sm" id="btnRunOptimization">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                Run TSP Solver &amp; Animate
+                Solve TSP &amp; Animate Truck
               </button>
             </div>
           </div>
@@ -444,7 +434,7 @@
               <div class="legend-item"><div class="legend-dot critical"></div> Critical &ge;80%</div>
               <div class="legend-item"><div class="legend-dot medium"></div> Moderate 60-79%</div>
               <div class="legend-item"><div class="legend-dot low"></div> Low &lt;60%</div>
-              <div style="margin-left: auto; color: var(--emerald-400); font-size: 0.72rem;">* Click canvas to add/toggle bins</div>
+              <div style="margin-left: auto; color: var(--emerald-400); font-size: 0.72rem;">* Click canvas to add or toggle bins</div>
             </div>
           </div>
         </div>
@@ -452,7 +442,7 @@
         <!-- Route Metrics & Manifest Panel -->
         <div class="optimizer-metrics-card">
           <div>
-            <span class="badge badge-emerald" style="margin-bottom: 6px;">Spatial Heuristics</span>
+            <span class="badge badge-emerald" style="margin-bottom: 6px;">Spatial Telemetry</span>
             <h3 style="font-size: 1.15rem; font-weight: 700; color: #fff;">Route Efficiency KPIs</h3>
           </div>
 
@@ -467,7 +457,7 @@
             </div>
             <div class="kpi-box">
               <div class="kpi-val" id="metricCo2" style="color: var(--amber-400);">39.1 kg</div>
-              <div class="kpi-lbl">CO₂ Emissions Cut</div>
+              <div class="kpi-lbl">CO₂ Avoided</div>
             </div>
             <div class="kpi-box">
               <div class="kpi-val" id="metricStops">6 bins</div>
@@ -502,14 +492,14 @@
     </div>
   </section>
 
-  <!-- Section 4: System Architecture & Tech Stack (Slide 8 & 9) -->
+  <!-- Section 4: Platform Architecture & Technology -->
   <section id="architecture" class="section-padding">
     <div class="container">
       <div class="section-head">
-        <div class="section-subtitle">Slide 8 &amp; 9: Architecture &amp; Tech Stack</div>
-        <h2 class="section-title">Engineered System Architecture</h2>
+        <div class="section-subtitle">Platform Architecture</div>
+        <h2 class="section-title">Engineered for Municipal Scale</h2>
         <p class="section-desc">
-          WasteWise connects citizen-facing web clients with an asynchronous API gateway, neural vision classification, and spatial PostgreSQL/PostGIS routing engines.
+          WasteWise connects citizen-facing web apps with an asynchronous API gateway, neural vision classification, and spatial PostgreSQL/PostGIS routing engines.
         </p>
       </div>
 
@@ -527,18 +517,18 @@
           <!-- Tier 2 -->
           <div class="pipeline-node" data-tier="tier2">
             <div class="pipeline-node-num">02 / BACKEND</div>
-            <div class="pipeline-node-title">FastAPI Service</div>
+            <div class="pipeline-node-title">FastAPI Microservice</div>
             <p class="pipeline-node-desc">
-              High-throughput async Python backend handling image inference dispatches and spatial geospatial queries.
+              High-throughput asynchronous Python backend handling image inference dispatches and spatial geospatial queries.
             </p>
           </div>
 
           <!-- Tier 3 -->
           <div class="pipeline-node" data-tier="tier3">
             <div class="pipeline-node-num">03 / AI VISION</div>
-            <div class="pipeline-node-title">Image Classifier</div>
+            <div class="pipeline-node-title">Vision Classifier</div>
             <p class="pipeline-node-desc">
-              Convolutional neural model trained on multi-class municipal solid waste datasets (plastic, paper, metal, organic).
+              Convolutional neural model trained on multi-class solid waste datasets (plastic, paper, metal, organic).
             </p>
           </div>
 
@@ -567,7 +557,7 @@ Payload: {
 }</pre>
       </div>
 
-      <!-- Tech Stack Matrix (Slide 9) -->
+      <!-- Tech Stack Matrix -->
       <div class="tech-grid">
         <div class="tech-card">
           <div class="tech-card-header">
@@ -575,7 +565,7 @@ Payload: {
             <div class="tech-title">Next.js</div>
           </div>
           <p class="tech-desc">
-            Builds the interactive frontend interface users and municipal fleet supervisors see with server-side rendering and rapid client interactions.
+            Powers the real-time web portal for citizens and fleet operators with server-side rendering and sub-second load times.
           </p>
         </div>
 
@@ -585,17 +575,17 @@ Payload: {
             <div class="tech-title">FastAPI</div>
           </div>
           <p class="tech-desc">
-            Ultra-fast asynchronous Python micro-framework delivering sub-50ms API response times for heavy vision models and GIS requests.
+            High-concurrency async Python framework delivering sub-50ms API response times for deep vision models and GIS calculations.
           </p>
         </div>
 
         <div class="tech-card">
           <div class="tech-card-header">
             <div class="tech-icon">🧠</div>
-            <div class="tech-title">Image Classifier</div>
+            <div class="tech-title">AI Image Classifier</div>
           </div>
           <p class="tech-desc">
-            Identifies the precise type of waste from photos (plastic, paper, metal, organic) to provide instant disposal and bin sorting guidance.
+            Identifies exact waste types from photos (plastic, paper, metal, organic) to provide instant disposal and bin sorting guidance.
           </p>
         </div>
 
@@ -612,24 +602,24 @@ Payload: {
         <div class="tech-card">
           <div class="tech-card-header">
             <div class="tech-icon">🚛</div>
-            <div class="tech-title">Route Optimization</div>
+            <div class="tech-title">VRP Route Optimization</div>
           </div>
           <p class="tech-desc">
-            Computes the shortest Hamiltonian cycle across priority full bins to minimize dead kilometers, fuel expenditure, and emissions.
+            Solves Hamiltonian cycles across priority full bins to minimize transit kilometers, diesel fuel expenditure, and emissions.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 5: SDG 11, 12, 13 Impact Calculator (Slide 10 & 11) -->
-  <section id="sdg-impact" class="section-padding" style="background: rgba(17, 26, 21, 0.4);">
+  <!-- Section 5: Environmental & Municipal Impact Calculator -->
+  <section id="impact" class="section-padding" style="background: rgba(17, 26, 21, 0.4);">
     <div class="container">
       <div class="section-head">
-        <div class="section-subtitle">Slide 10 &amp; 11: UN SDG Contributions &amp; Expected Outcomes</div>
-        <h2 class="section-title">Measurable Civic &amp; Climate Impact</h2>
+        <div class="section-subtitle">Measurable Impact</div>
+        <h2 class="section-title">Civic &amp; Ecological Savings Calculator</h2>
         <p class="section-desc">
-          Calculate the projected annual ecological and financial savings when deploying WasteWise across a city ward or metropolitan district.
+          Estimate the projected annual ecological and financial savings when deploying WasteWise across a city ward or metropolitan district.
         </p>
       </div>
 
@@ -638,7 +628,7 @@ Payload: {
           <!-- Sliders -->
           <div>
             <h3 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 20px;">
-              Municipal District Parameters
+              District Deployment Parameters
             </h3>
 
             <div class="slider-group">
@@ -666,7 +656,7 @@ Payload: {
             </div>
 
             <div style="background: var(--bg-surface-elevated); padding: 16px; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); margin-top: 24px;">
-              <div style="font-size: 0.82rem; font-weight: 700; color: var(--emerald-400); margin-bottom: 4px;">UN SDG Alignment:</div>
+              <div style="font-size: 0.82rem; font-weight: 700; color: var(--emerald-400); margin-bottom: 4px;">UN Sustainable Development Alignment:</div>
               <div style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
                 • <strong>SDG 11:</strong> Cleaner neighborhoods, zero street bin overflows.<br>
                 • <strong>SDG 12:</strong> Higher purity recyclables stream, reduced landfilling.<br>
@@ -709,14 +699,14 @@ Payload: {
     </div>
   </section>
 
-  <!-- Section 6: Project Scope - First Version (Slide 6) -->
-  <section id="scope" class="section-padding">
+  <!-- Section 6: Enterprise Capabilities -->
+  <section id="capabilities" class="section-padding">
     <div class="container">
       <div class="section-head">
-        <div class="section-subtitle">Slide 6: Scope &amp; Roadmap</div>
-        <h2 class="section-title">First Version MVP Scope</h2>
+        <div class="section-subtitle">Platform Features</div>
+        <h2 class="section-title">Built for Modern Municipalities</h2>
         <p class="section-desc">
-          As outlined in Slide 6 of the Skill Lab project proposal, the first working version demonstrates the core principles of AI sorting and route optimization.
+          Modular capabilities engineered to integrate smoothly with existing city sanitation fleets and smart city IoT networks.
         </p>
       </div>
 
@@ -725,9 +715,9 @@ Payload: {
           <div class="problem-icon-wrap" style="background: rgba(16, 185, 129, 0.12); color: var(--emerald-400);">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
           </div>
-          <h4 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 8px;">Upload Waste Images</h4>
+          <h4 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 8px;">Instant Citizen Photo Ingestion</h4>
           <p style="font-size: 0.88rem; color: var(--text-muted);">
-            Simple drag-and-drop or mobile camera image ingestion interface that preprocesses images for neural classification.
+            Lightweight, high-speed image preprocessing and inference pipeline that gives citizens sub-second guidance on proper bin disposal.
           </p>
         </div>
 
@@ -735,9 +725,9 @@ Payload: {
           <div class="problem-icon-wrap" style="background: rgba(59, 130, 246, 0.12); color: var(--blue-400);">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m4.93 4.93 4.24 4.24"></path><path d="m14.83 9.17 4.24-4.24"></path><path d="m14.83 14.83 4.24 4.24"></path><path d="m9.17 14.83-4.24 4.24"></path></svg>
           </div>
-          <h4 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 8px;">Identify Waste Categories</h4>
+          <h4 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 8px;">Multi-Class Waste Segmentation</h4>
           <p style="font-size: 0.88rem; color: var(--text-muted);">
-            Detects core municipal solid waste classes: plastic polymers, recyclable paper/cardboard, metals, and compostable organic matter.
+            Accurately differentiates recyclable polymers, corrugated fiber, metal containers, e-waste, and organic compostable waste.
           </p>
         </div>
 
@@ -745,9 +735,9 @@ Payload: {
           <div class="problem-icon-wrap" style="background: rgba(245, 158, 11, 0.12); color: var(--amber-400);">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg>
           </div>
-          <h4 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 8px;">Disposal Recommendations</h4>
+          <h4 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 8px;">Standardized Bin Allocation</h4>
           <p style="font-size: 0.88rem; color: var(--text-muted);">
-            Clear color-coded bin recommendations (Green for wet, Blue for dry recyclables, Red for hazardous) and preparation guidelines.
+            Direct color-coded recommendations matching municipal standards (Blue for dry, Green for wet, Red for hazardous) and preparation guidelines.
           </p>
         </div>
 
@@ -755,43 +745,10 @@ Payload: {
           <div class="problem-icon-wrap" style="background: rgba(168, 85, 247, 0.12); color: #c084fc;">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
           </div>
-          <h4 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 8px;">Collection Route Prototype</h4>
+          <h4 style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-bottom: 8px;">Dynamic Fleet Optimization</h4>
           <p style="font-size: 0.88rem; color: var(--text-muted);">
-            Heuristic TSP engine that demonstrates quantifiable reductions in transit kilometers and fuel burn across municipal collection points.
+            Heuristic TSP routing engine that guarantees quantifiable reductions in transit kilometers and fuel burn across municipal collection points.
           </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section 7: Team & Project Attribution (Slide 1 & 13) -->
-  <section id="team" class="section-padding" style="background: rgba(17, 26, 21, 0.4);">
-    <div class="container">
-      <div class="section-head">
-        <div class="section-subtitle">Slide 1 &amp; 13: Presentation Credits</div>
-        <h2 class="section-title">Presented by Team 27</h2>
-        <p class="section-desc">
-          Skill Lab Project Presentation on AI Waste Sorting and Collection Route Optimizer.
-        </p>
-      </div>
-
-      <div class="team-grid">
-        <div class="team-card">
-          <div class="team-avatar">NS</div>
-          <div>
-            <div class="team-name">Nidhi Shedole</div>
-            <div class="team-roll">Roll No: 25211A05DB</div>
-            <div class="team-role">Skill Lab Project • Team 27 Member</div>
-          </div>
-        </div>
-
-        <div class="team-card">
-          <div class="team-avatar">BS</div>
-          <div>
-            <div class="team-name">B. Sreehitha</div>
-            <div class="team-roll">Roll No: 26215A0548</div>
-            <div class="team-role">Skill Lab Project • Team 27 Member</div>
-          </div>
         </div>
       </div>
     </div>
@@ -812,25 +769,25 @@ Payload: {
           </div>
           <div class="brand-text">
             <span class="brand-title">WasteWise</span>
-            <span class="brand-sub">AI Waste Sorting &amp; Collection Route Optimizer</span>
+            <span class="brand-sub">Intelligent Waste Sorting &amp; Dynamic Route Optimization</span>
           </div>
         </div>
 
         <div style="display: flex; gap: 20px; font-size: 0.85rem; color: var(--text-muted);">
-          <a href="#problem-statement" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">Problem Statement</a>
-          <a href="#classifier" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">AI Classifier</a>
-          <a href="#route-optimizer" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">Route Optimizer</a>
+          <a href="#problem" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">The Challenge</a>
+          <a href="#vision" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">AI Vision</a>
+          <a href="#dispatch" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">Fleet Dispatch</a>
           <a href="#architecture" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">Architecture</a>
-          <a href="#sdg-impact" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">SDG Impact</a>
+          <a href="#impact" style="transition: var(--transition);" onmouseover="this.style.color='#10b981'" onmouseout="this.style.color='var(--text-muted)'">Impact Calculator</a>
         </div>
       </div>
 
       <div class="footer-bottom">
         <div>
-          WasteWise &copy; 2026 • Skill Lab Project Team 27 (Nidhi Shedole &amp; B. Sreehitha)
+          WasteWise &copy; 2026 • Intelligent Municipal Systems
         </div>
         <div>
-          Pure HTML5 • Vanilla CSS3 • Modern JavaScript ES6 (Zero Framework Bloat)
+          Pure HTML5 • Vanilla CSS3 • Modern JavaScript ES6 (Zero External Dependencies)
         </div>
       </div>
     </div>
